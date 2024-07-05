@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav h1 {
+  display: inline;
+  margin-right: 2rem;
+}
+
+.content {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside h2 {
+  margin-top: 2rem;
+}
+
+main {
+  flex-grow: 1;
+  padding: 1rem;
+}
